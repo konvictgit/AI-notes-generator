@@ -1,4 +1,4 @@
-readme_content = """# Summara - AI Study Notes Generator
+readme_content = """# Summara - AI  Notes Generator
 
 Summara is a full-stack GenAI project that automates **study notes generation** from PDFs and other content.  
 It integrates modern web technologies, event streaming, caching, and cloud storage to build a scalable system.
@@ -6,6 +6,46 @@ It integrates modern web technologies, event streaming, caching, and cloud stora
 ---
 
 ## 🚀 Tech Stack
+
+# 📘 Summara - AI Notes Generator  
+
+Summara is a full-stack **GenAI project** that automates **study notes generation** from PDFs and other content.  
+It leverages **Large Language Models (LLMs)** via **Hugging Face Inference API**, combining AI-driven summarization with a scalable event-driven backend.  
+
+---
+
+## 🚀 Tech Stack  
+
+### 🧠 AI / GenAI  
+![GenAI](https://img.shields.io/badge/GenAI-FF6F61?logo=OpenAI&logoColor=white)  
+![LLMs](https://img.shields.io/badge/LLM-Powered-8A2BE2?logo=openaigym&logoColor=white)  
+![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFCC00?logo=huggingface&logoColor=black)  
+![NLP](https://img.shields.io/badge/NLP-Transformers-006400?logo=python&logoColor=white)  
+
+### 🌐 Frontend  
+![Next.js](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white)  
+![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)  
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?logo=tailwindcss&logoColor=white)  
+![Axios](https://img.shields.io/badge/Axios-5A29E4?logo=axios&logoColor=white)  
+![jsPDF](https://img.shields.io/badge/jsPDF-FFCA28?logo=javascript&logoColor=black)  
+
+### ⚙️ Backend / Worker  
+![Node.js](https://img.shields.io/badge/Node.js-43853D?logo=node.js&logoColor=white)  
+![Express.js](https://img.shields.io/badge/Express.js-000000?logo=express&logoColor=white)  
+![KafkaJS](https://img.shields.io/badge/KafkaJS-231F20?logo=apachekafka&logoColor=white)  
+![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white)  
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?logo=supabase&logoColor=white)  
+![AWS S3](https://img.shields.io/badge/AWS%20S3-FF9900?logo=amazonaws&logoColor=white)  
+![Multer](https://img.shields.io/badge/Multer-FF6F00?logo=nodedotjs&logoColor=white)  
+![pdf-parse](https://img.shields.io/badge/pdf--parse-8A2BE2?logo=adobeacrobatreader&logoColor=white)  
+
+### 🛠️ Infrastructure  
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)  
+![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?logo=apachekafka&logoColor=white)  
+![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white)  
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?logo=supabase&logoColor=white)  
+
+---
 
 ### Frontend (Next.js + React)
 
