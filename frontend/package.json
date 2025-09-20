@@ -1,0 +1,27 @@
+{
+  "name": "ai-study-notes-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "api": "node server.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.893.0",
+    "@aws-sdk/s3-request-presigner": "^3.893.0",
+    "@supabase/supabase-js": "^2.26.0",
+    "autoprefixer": "10.4.14",
+    "axios": "1.4.0",
+    "jspdf": "^3.0.3",
+    "kafkajs": "2.2.4",
+    "lucide-react": "^0.544.0",
+    "next": "13.4.10",
+    "postcss": "8.4.24",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^5.5.0",
+    "tailwindcss": "3.4.7"
+  }
+}

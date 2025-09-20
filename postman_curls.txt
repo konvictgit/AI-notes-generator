@@ -1,0 +1,17 @@
+# 1) Get presigned URL (frontend API)
+curl -X POST http://localhost:3000/api/s3-presign \
+  -H "Content-Type: application/json" \
+  -d '{"fileName":"sample.pdf","contentType":"application/pdf"}'
+
+# 2) Upload the file to the returned presigned URL (example)
+# Suppose the presigned URL is in PRESIGNED_URL variable
+curl -X PUT "$PRESIGNED_URL" \
+  -H "Content-Type: application/pdf" \
+  --data-binary @sample.pdf
+
+# 3) Notify the backend (producer) that upload finished
+curl -X POST http://localhost:3000/api/notify-upload \
+  -H "Content-Type: application/json" \
+  -d '{"fileKey":"uploads/sample.pdf","metadata":{"title":"Sample PDF"}}'
+
+# 4) Check Supabase for generated notes (use Supabase dashboard or API)

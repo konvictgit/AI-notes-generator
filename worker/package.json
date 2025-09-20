@@ -1,0 +1,24 @@
+{
+  "name": "ai-study-notes-worker",
+  "version": "0.1.0",
+  "private": true,
+  "main": "consumer.js",
+  "scripts": {
+    "start": "node consumer.js",
+    "api": "node server.js",
+    "dev:api": "nodemon server.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.893.0",
+    "@supabase/supabase-js": "2.26.0",
+    "cors": "^2.8.5",
+    "crypto-js": "4.1.1",
+    "dotenv": "16.3.1",
+    "express": "^4.21.2",
+    "ioredis": "5.3.2",
+    "kafkajs": "2.2.4",
+    "multer": "^2.0.2",
+    "node-fetch": "2.6.7",
+    "pdf-parse": "^1.1.1"
+  }
+}
